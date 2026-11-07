@@ -1,0 +1,102 @@
+FIELDLINK/
+│
+├── venv/                       # Virtual environment Python
+│
+├── app/
+│   ├── __init__.py
+│   ├── db.py
+│   │
+│   ├── auth/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   │
+│   ├── admin/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   │
+│   ├── teacher/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   │
+│   ├── industry/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   │
+│   ├── integration/
+│   │   ├── __init__.py
+│   │   ├── actrace_client.py
+│   │   ├── routes.py
+│   │   └── sync_service.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── placement_service.py
+│   │   ├── monitoring_service.py
+│   │   └── evaluation_service.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── decorators.py
+│       └── helpers.py
+│
+├── templates/
+│   ├── auth/
+│   │   └── login.html
+│   │
+│   ├── admin/
+│   │   ├── base_admin.html
+│   │   ├── dashboard.html
+│   │   ├── users.html
+│   │   ├── students.html
+│   │   ├── companies.html
+│   │   ├── mentors.html
+│   │   ├── placements.html
+│   │   ├── add_placement.html
+│   │   ├── edit_placement.html
+│   │   ├── monitoring.html
+│   │   ├── evaluations.html
+│   │   └── reports.html
+│   │
+│   ├── teacher/
+│   │   ├── base_teacher.html
+│   │   ├── dashboard.html
+│   │   ├── my_students.html
+│   │   ├── student_detail.html
+│   │   ├── monitoring.html
+│   │   └── evaluations.html
+│   │
+│   ├── industry/
+│   │   ├── base_industry.html
+│   │   ├── dashboard.html
+│   │   ├── assigned_students.html
+│   │   └── evaluations.html
+│   │
+│   └── errors/
+│       ├── 403.html
+│       ├── 404.html
+│       └── 500.html
+│
+├── static/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── auth.css
+│   │   ├── admin.css
+│   │   ├── teacher.css
+│   │   └── industry.css
+│   │
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── monitoring.js
+│   │   └── integration.js
+│   │
+│   └── img/
+│
+├── database/
+│   └── schema.sql
+│
+├── config.py
+├── run.py
+├── requirements.txt
+├── .env
+├── .env.example
+└── .gitignore

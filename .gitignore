@@ -1,0 +1,10 @@
+venv/
+.env.example
+.env
+_pycache_/
+*.py[cod]
+.vscode/
+instance/
+database/
+.pytest_cache/
+.coverege
